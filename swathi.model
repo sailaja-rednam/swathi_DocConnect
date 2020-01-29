@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!----><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" inputOutput="false" manual="true">
+<model-identification modelTag="">
+<model-identification-field name="Application Name" partOfTag="true" value="Aptech Computer Education"/>
+<model-identification-field name="Application code version #" partOfTag="true" value=""/>
+<model-identification-field name="Application Function" partOfTag="true" value="Aptech Computer Education_Career_Guidance"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value=""/>
+<model-identification-field name="Created By" partOfTag="false" value="swathi"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="29 Jan 2020 11:16:47"/>
+<model-identification-field name="Updated By" partOfTag="false" value="swathi"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="29 Jan 2020 11:16:47"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value=""/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Name" revision="" type="STRING">
+<value name="valid" weight="1">
+<requirement ID="doc_connect.1"/>
+</value>
+<value name="invalid" weight="1">
+<requirement ID="doc_connect.1"/>
+</value>
+<requirement ID="doc_connect.1"/>
+</attribute>
+<coverage-reqs-sets/>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="true"/>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+<requirements-tracking-combination>
+<attr-value attribute="Name" value="invalid"/>
+<requirement ID="doc_connect.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Name" value="valid"/>
+<requirement ID="doc_connect.1"/>
+</requirements-tracking-combination>
+<requirements-collection>
+<requirement-node Ambiguity="" Complexity="Simple" DocumentName="" Keywords="" Ranking="2147483647" RequirementDescription="" RequirementId="SRS.1.1" Restrictions=""/>
+<requirement-node Ambiguity="" Complexity="Complex" DocumentName="doc_connect" Keywords="" Ranking="0" RequirementDescription="" RequirementId="1" Restrictions=""/>
+</requirements-collection>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
